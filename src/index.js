@@ -1,6 +1,17 @@
-import './output.css'
+import './output.css';
 
-export const Input = import('./components/Input.jsx')
-export const PrimaryButton = import('./components/PrimaryButton.jsx')
-export const SelectInput = import('./components/SelectInput.jsx')
-export const TextArea = import('./components/TextArea.jsx')
+import Input from './components/Input.jsx';
+import PrimaryButton from './components/PrimaryButton.jsx';
+import SelectInput from './components/SelectInput.jsx';
+import TextArea from './components/TextArea.jsx';
+
+export { Input, PrimaryButton, SelectInput, TextArea };
+
+const dryComponents = {
+    Input,
+    PrimaryButton,
+    SelectInput,
+    TextArea,
+};
+
+export default dryComponents;
