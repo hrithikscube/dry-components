@@ -1,6 +1,6 @@
 {
   "name": "dry-components",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "simple input components built using jsx & tailwind css",
   "main": "index.js",
   "scripts": {
