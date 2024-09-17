@@ -1,5 +1,3 @@
-import React from 'react';
-
 const PrimaryButton = ({ label, onClick, width, variant }) => {
 
     if (variant === 'outlined') {

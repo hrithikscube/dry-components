@@ -1,5 +1,3 @@
-import React from 'react';
-
 const SelectInput = ({ value, name, options, handleChange, width, label }) => {
     return (
         <div className={`${width || 'w-full'} relative`}>

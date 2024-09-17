@@ -1,5 +1,3 @@
-import React from 'react';
-
 const TextArea = ({ value, name, type, handleChange, width, label, rows }) => {
     return (
         <div className={`${width || 'w-full'}`}>

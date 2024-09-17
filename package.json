@@ -1,6 +1,6 @@
 {
   "name": "dry-components",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "A lightweight React component library built with Tailwind CSS for styling. This library contains a collection of reusable components, making it easy to integrate into your projects.",
   "main": "src/index.js",
   "keywords": [

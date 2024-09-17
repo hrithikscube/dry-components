@@ -4,7 +4,7 @@ A lightweight React component library built with Tailwind CSS for styling. This 
 
 ## Features
 
-- Built using **React** and **JSX**
+- Built using **JSX**
 - Styled with **Tailwind CSS**
 - Simple and reusable component structure
 - Customizable with Tailwind CSS classes
@@ -39,6 +39,7 @@ import { PrimaryButton } from 'dry-components';
 | `width`     | `string` | No       | Optional width of the input container, default is `w-full`. Accepts Tailwind CSS width classes.            |
 | `label`     | `string` | No       | Placeholder text for the input field. If not provided, the placeholder will be empty.                      |
 
+
 ## TextArea Component Props
 
 | Prop Name   | Type     | Required | Description                                                                                               |
@@ -51,6 +52,7 @@ import { PrimaryButton } from 'dry-components';
 | `label`     | `string` | No       | Placeholder text for the text area. If not provided, the placeholder will be empty.                       |
 | `rows`      | `number` | No       | Number of visible text lines. Defaults to 5.                                                               |
 
+
 ## SelectInput Component Props
 
 | Prop Name   | Type       | Required | Description                                                                                               |
@@ -61,6 +63,7 @@ import { PrimaryButton } from 'dry-components';
 | `handleChange` | `function` | Yes  | The function to handle the change event for the select input.                                               |
 | `width`     | `string`   | No       | Optional width of the select input container, default is `w-full`. Accepts Tailwind CSS width classes.    |
 | `label`     | `string`   | No       | Placeholder text for the select input. This will be shown as a disabled option when no option is selected. |
+
 
 ## PrimaryButton Component Props
 

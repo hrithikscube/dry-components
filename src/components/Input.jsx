@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Input = ({ value, name, type, handleChange, width, label }) => {
     return (
         <div className={`${width || 'w-full'}`}>
