@@ -25,6 +25,6 @@ To use any component from the library, import it into your project like so:
 import { ComponentName } from 'dry-components';
 ```
 
-## Usage
+## Note
 
 This library uses Tailwind CSS for styling, so make sure you have Tailwind CSS configured in your project for the components to render properly. Without Tailwind CSS, the components will not be styled as intended.
