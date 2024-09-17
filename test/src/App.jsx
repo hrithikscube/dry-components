@@ -1,5 +1,5 @@
 import React from 'react'
-import { PrimaryButton } from 'dry-components/src'
+import { PrimaryButton } from 'dry-components'
 
 const App = () => {
   return (
